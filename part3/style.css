@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+
+body {
+  background: #FFD55F;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  margin: 40px auto 0 auto;
+  display: block;
+  width: 600px;
+}
+.box-under, .box-above {
+  width: 400px;
+  padding: 20px 40px;
+  border: 4px solid;
+  position: relative;
+  background: #fff;
+  height: 210px;
+  overflow: hidden;
+}
+
+.box-under {
+  z-index: 0;
+  top: -230px;
+  left: 25px;
+}
+
+.box-above {
+  z-index: 1;
+  transition: all .2s ease-in-out;
+}
+
+.box-above:hover {
+  opacity: 0;
+}
+
+.hover-me {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.box-under.shiba-inu {
+  background-image: url('http://www.expertoanimal.com/es/images/2/9/7/img_como_evitar_que_mi_shiba_inu_me_muerda_20792_490.jpg');
+}
