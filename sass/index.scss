@@ -9,14 +9,14 @@
     color: black;
     &-sidebar{ color: #ff0000; }
     a {
-      Float: left;
+      float: left;
       &:hover { color: #ffffff }
     }
 }
 p {
-    Font: {
-       Size: 30em;
-       Weight: bold;
+    font: {
+       size: 30em;
+       weight: bold;
     } 
 }
 
